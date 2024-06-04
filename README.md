@@ -52,3 +52,6 @@ Lower Alpha: A lower learning rate ensures smaller, more precise updates, which 
 More Epochs: Increasing the number of epochs means the training algorithm will have more opportunities to update the weights and potentially reduce the loss further. This can be particularly beneficial if the learning rate is small. However, training for too many epochs can lead to overfitting, especially if the training data is not representative of the general population or is noisy.
 
 Fewer Epochs: Training for fewer epochs can be useful to prevent overfitting in some cases, especially when using a higher learning rate. This might be appropriate if early stopping is used, where you monitor the model’s performance on a validation set and stop training when performance begins to degrade.
+
+## Training Results Learning Curve
+<img width="1272" alt="Screenshot 2024-06-04 at 9 24 46 PM" src="https://github.com/elmahsieh/LogisticRegressionTraining/assets/141378765/d84cf103-0daf-45b1-97c8-057d0168e4c5">
